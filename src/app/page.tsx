@@ -4,9 +4,9 @@ import { Settings } from '@/components/Settings/Settings';
 
 export default function Home() {
   return (
-    <div className="rf">
+    <React.Fragment>
       <Header />
       <Settings />
-    </div>
+    </React.Fragment>
   );
 }

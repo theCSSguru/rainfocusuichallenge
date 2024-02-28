@@ -1,5 +1,6 @@
 import { event } from '@/lib/event';
 import '@/styles/globals.scss';
+import clsx from 'clsx';
 
 import { Inter } from 'next/font/google';
 
@@ -20,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={clsx('rf', inter.className)}>{children}</body>
     </html>
   );
 }
