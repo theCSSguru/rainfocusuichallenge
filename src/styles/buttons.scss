@@ -1,0 +1,46 @@
+// Buttons
+button {
+  all: unset;
+  cursor: pointer;
+}
+.btn {
+  // Defaults
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: $clr-white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+
+  // Remove focus outline if clicking, only shows when tabbing
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+
+  // Primary Button
+  &-primary {
+    background-color: $clr-marketing-primary-grape;
+    transition: background-color 0.2s ease-in-out;
+    &:hover {
+      background-color: $clr-complimentary-grape;
+    }
+    &:focus {
+      outline: 2px $clr-marketing-primary-grape solid;
+      outline-offset: 1px;
+    }
+  }
+
+  // Secondary Button
+  &-secondary {
+    background-color: $clr-brand-primary-berry;
+    transition: background-color 0.2s ease-in-out;
+    &:hover {
+      background-color: lighten($clr-brand-primary-berry, 20%);
+    }
+    &:focus {
+      outline: 2px $clr-brand-primary-berry solid;
+      outline-offset: 1px;
+    }
+  }
+}

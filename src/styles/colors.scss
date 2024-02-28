@@ -1,0 +1,83 @@
+// Colors
+
+// SASS Variables
+$clr-white: #ffffff;
+$clr-black: #000000;
+$clr-dark-text: #222222;
+$clr-gray-text: #444444;
+$clr-marketing-primary-grape: #5c00dc;
+$clr-complimentary-grape: #ab99ff;
+$clr-brand-primary-berry: #e71356;
+$clr-dark-grape: #393551;
+$clr-divider: #bbbbbb;
+$clr-border: #cccccc;
+
+// Classes
+.clr-white {
+  color: $clr-white;
+  &-bg {
+    background-color: $clr-white;
+  }
+  &-fill {
+    fill: $clr-white;
+  }
+}
+.clr-black {
+  color: $clr-black;
+  &-bg {
+    background-color: $clr-black;
+  }
+  &-fill {
+    fill: $clr-black;
+  }
+}
+.clr-dark-text {
+  color: $clr-dark-text;
+}
+.clr-gray-text {
+  color: $clr-gray-text;
+}
+.clr-marketing-primary-grape {
+  color: $clr-marketing-primary-grape;
+  &-bg {
+    background-color: $clr-marketing-primary-grape;
+  }
+  &-fill {
+    fill: $clr-marketing-primary-grape;
+  }
+}
+.clr-complimentary-grape {
+  color: $clr-complimentary-grape;
+  &-bg {
+    background-color: $clr-complimentary-grape;
+  }
+  &-fill {
+    fill: $clr-complimentary-grape;
+  }
+}
+.clr-brand-primary-berry {
+  color: $clr-brand-primary-berry;
+  &-bg {
+    background-color: $clr-brand-primary-berry;
+  }
+  &-fill {
+    fill: $clr-brand-primary-berry;
+  }
+}
+.clr-dark-grape {
+  color: $clr-dark-grape;
+  &-bg {
+    background-color: $clr-dark-grape;
+  }
+  &-fill {
+    fill: $clr-dark-grape;
+  }
+}
+.clr-divider {
+  &-bg {
+    background-color: $clr-divider;
+  }
+}
+.clr-border {
+  border-color: $clr-border;
+}

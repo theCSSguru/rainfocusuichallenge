@@ -1,0 +1,34 @@
+// Page Defaults
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/*
+  All Styles wrapped with .rf (rainfocus) class so it can 
+  easily be dropped into any project page content area
+*/
+.rf {
+  padding: 20px;
+  @media (min-width: 640px) {
+    padding: 30px;
+  }
+
+  // @ Base Imports
+  @import 'helpers.scss';
+  @import 'colors.scss';
+  @import 'typography.scss';
+  @import 'buttons.scss';
+
+  // Defaults
+  color: $clr-black;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  // @ Component Imports
+  @import './src/@/components/Card/Card.scss';
+  @import './src/@/components/Header/Header.scss';
+  @import './src/@/components/Settings/Settings.scss';
+}

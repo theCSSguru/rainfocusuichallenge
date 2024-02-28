@@ -1,0 +1,44 @@
+// Typography
+$flow: 10px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+  margin: 0 0 $flow;
+}
+h1 {
+  font-size: 28px;
+  line-height: 32px;
+  @media (min-width: 640px) {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+h2 {
+  font-size: 24px;
+  line-height: 28px;
+}
+h3 {
+  font-size: 20px;
+  line-height: 24px;
+}
+h4 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+}
+p {
+  margin: 0 0 $flow;
+
+  &.small {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
